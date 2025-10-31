@@ -1,6 +1,5 @@
 # FantaConvocazioni - Gibbi edition
 
-
 ## Regole
 
 * Invia le tue convocazioni PRIMA che Luha mandi le sue

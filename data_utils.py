@@ -1,5 +1,4 @@
 import pandas as pd
-import ast
 
 def rename_columns(df):
     df.rename(columns={'Chi sei': 'Name', "Seleziona le tue 10 convocate": "Selected_players", "Giornata":"Date"}, inplace=True)
@@ -13,9 +12,6 @@ def to_player_list(x):
         return x
     else:
         return []
-
-
-
 
 def compute_right_selected_players(df: pd.DataFrame):
     df["Selected_players"] = df["Selected_players"].apply(to_player_list)
@@ -43,4 +39,4 @@ def assign_points(df: pd.DataFrame):
 def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
     df_ranking = df.groupby("Name")["point"].sum()
-    return df
+    return df_ranking

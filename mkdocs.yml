@@ -5,5 +5,6 @@ theme:
     primary: teal
     accent: light blue
 nav:
-  - Home: Regolamento.md
-  - Report: Classifica.md
+  - Home: Regolamento.md       # This will be the default page at /
+  - Classifica: Classifica.md
+  - Statistiche: Stats.md
