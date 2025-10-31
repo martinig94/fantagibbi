@@ -5,5 +5,5 @@ theme:
     primary: teal
     accent: light blue
 nav:
-  - Home: index.md
-  - Report: report.md
+  - Home: Regolamento.md
+  - Report: Classifica.md
