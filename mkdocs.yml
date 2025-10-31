@@ -1,0 +1,9 @@
+site_name: Fantaconvocazioni - Gibbi edition
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: light blue
+nav:
+  - Home: index.md
+  - Report: report.md
