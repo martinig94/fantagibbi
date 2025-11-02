@@ -1,5 +1,3 @@
 # Statistiche Convocazioni
 
-## Le più convocate
-
-## Le meno convocate
+![alt text](images/most_selected.png)

@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def rename_columns(df):
     df.rename(columns={'Chi sei': 'Name', "Seleziona le tue 10 convocate": "Selected_players", "Giornata":"Date"}, inplace=True)
@@ -40,3 +41,17 @@ def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
     df_ranking = df.groupby("Name", as_index=True)["point"].sum()
     return df_ranking
+
+def plot_most_selected(df: pd.DataFrame, save:bool=True):
+    df = df.loc[df["Name"] == "Coach", :]
+    counts = df["Selected_players"].explode().value_counts()
+    fix, ax = plt.subplots(figsize=(8, 4))
+    ax.bar(counts.index, counts.values)
+    plt.title("Numero di Convocazioni")
+    plt.xlabel("Giocatrici")
+    plt.ylabel("")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig("docs/images/most_selected.png", dpi=300)
+
+
