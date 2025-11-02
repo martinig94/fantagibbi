@@ -5,6 +5,9 @@ on:
     - cron: '0 8,11,17 * * *'  # 9:00, 12:00, 18:00 Rome time
   workflow_dispatch:
 
+permissions:
+  contents: write  # ✅ allow pushing changes back
+
 jobs:
   run-and-deploy:
     runs-on: ubuntu-latest
