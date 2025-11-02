@@ -1,0 +1,46 @@
+name: Run main.py and deploy MkDocs site
+
+on:
+  schedule:
+    - cron: '0 8,11,17 * * *'  # 9:00, 12:00, 18:00 Rome time
+  workflow_dispatch:
+
+jobs:
+  run-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install mkdocs mkdocs-material
+
+      - name: Set up service account key
+        run: |
+          echo "$SERVICE_ACCOUNT_JSON" > service_account.json
+        env:
+          SERVICE_ACCOUNT_JSON: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+
+      - name: Run main script
+        run: |
+          python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-update from main.py" || echo "No changes to commit"
+          git push
+
+      - name: Deploy MkDocs site
+        run: |
+          mkdocs gh-deploy --force

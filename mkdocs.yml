@@ -1,10 +1,11 @@
 site_name: Fantaconvocazioni - Gibbi edition
+docs_dir: docs
 theme:
   name: material
   palette:
     primary: teal
     accent: light blue
 nav:
-  - Home: Regolamento.md       # This will be the default page at /
+  - Regolamento: index.md       # This will be the default page at /
   - Classifica: Classifica.md
   - Statistiche: Stats.md

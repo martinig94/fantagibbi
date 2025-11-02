@@ -21,3 +21,4 @@ def get_data():
     df = pd.DataFrame(rows[1:], columns=rows[0])
     return df
 
+

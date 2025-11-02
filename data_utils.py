@@ -38,5 +38,5 @@ def assign_points(df: pd.DataFrame):
 
 def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
-    df_ranking = df.groupby("Name")["point"].sum()
+    df_ranking = df.groupby("Name", as_index=True)["point"].sum()
     return df_ranking
