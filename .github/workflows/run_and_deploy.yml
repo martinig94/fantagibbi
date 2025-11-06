@@ -46,10 +46,20 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin ${{ github.ref_name }}
-          git add .
+
+          # Stage everything first (so rebase won't fail)
+          git add -A
+
+          # Fetch and rebase on the latest remote changes
+          git fetch origin ${{ github.ref_name }}
+          git rebase origin/${{ github.ref_name }} || true
+
+          # Commit if there are any changes
           git commit -m "Auto-update from main.py" || echo "No changes to commit"
+
+          # Push using the GITHUB_TOKEN
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
 
       - name: Deploy MkDocs site
         run: |
