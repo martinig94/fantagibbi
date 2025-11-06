@@ -1,6 +1,9 @@
 name: Run main.py and deploy MkDocs site
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0 8,11,17 * * *'  # 9:00, 12:00, 18:00 Rome time
   workflow_dispatch:
