@@ -83,7 +83,7 @@ def plot_trend_points(df):
     fig, ax = plt.subplots()
 
     for name in df.Name.unique():
-        ax.plot(df[df.Name == name].date, df[df.Name == name].cumulative_points, label=name)
+        ax.plot(df[df.Name == name].Date, df[df.Name == name].cumulative_points, label=name)
 
     ax.set_xlabel("Giornata")
     ax.set_ylabel("Punti")
