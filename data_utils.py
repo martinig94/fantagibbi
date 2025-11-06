@@ -81,11 +81,11 @@ def plot_most_selected_players(df: pd.DataFrame, save:bool=True):
 
 def plot_trend_points(df):
     df = df.loc[df["Name"] != "Coach", :]
-    df = df.sort_values(["Name", "Timestamp"])
+    df = df.sort_values(["Timestamp", "Name"])
     fig, ax = plt.subplots()
 
     for name in df.Name.unique():
-        ax.plot(df[df.Name == name].Date, df[df.Name == name].cumulative_points, label=name)
+        ax.plot(df[df.Name == name].Date, df[df.Name == name].cumulative_points, label=name, linestyle="dashed")
 
     ax.set_xlabel("Giornata")
     ax.set_ylabel("Punti")
