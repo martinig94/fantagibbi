@@ -80,6 +80,8 @@ def plot_most_selected_players(df: pd.DataFrame, save:bool=True):
 
 
 def plot_trend_points(df):
+    df = df.loc[df["Name"] != "Coach", :]
+    df = df.sort_values(["Name", "Timestamp"])
     fig, ax = plt.subplots()
 
     for name in df.Name.unique():
