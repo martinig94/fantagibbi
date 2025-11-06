@@ -50,7 +50,7 @@ def get_cumulative_points(df: pd.DataFrame):
 def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
     df_ranking = df.groupby("Name", as_index=True)["point"].sum()
-    df_ranking.sort_values()
+    df_ranking.sort_values(inplace=True)
     return df_ranking
 
 def plot_most_selected_coach(df: pd.DataFrame, save:bool=True):
