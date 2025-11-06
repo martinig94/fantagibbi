@@ -50,6 +50,7 @@ def get_cumulative_points(df: pd.DataFrame):
 def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
     df_ranking = df.groupby("Name", as_index=True)["point"].sum()
+    df_ranking.sort_values()
     return df_ranking
 
 def plot_most_selected_coach(df: pd.DataFrame, save:bool=True):
@@ -86,7 +87,8 @@ def plot_trend_points(df):
 
     for name in df.Name.unique():
         ax.plot(df[df.Name == name].Date, df[df.Name == name].cumulative_points, label=name, linestyle="dashed", marker='o')
-
+        ax.scatter(df[df.Name == name].Date, df[df.Name == name].cumulative_points)
+    ax.set_xlim(left=0)
     ax.set_xlabel("Giornata")
     ax.set_ylabel("Punti")
     ax.legend(loc='best')
