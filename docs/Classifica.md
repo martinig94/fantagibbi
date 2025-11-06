@@ -11,4 +11,4 @@
 [Scarica classifica](data/ranking.csv)
 # Andamento Punteggio
 
-
+![alt text](/images/trend_points.png)

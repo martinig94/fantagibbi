@@ -41,6 +41,12 @@ def assign_points(df: pd.DataFrame):
     df["point"]=df.apply(lambda row: 150 if row["same_as_coach"]==10 else 10*row["same_as_coach"], axis=1)
     return df
 
+def get_cumulative_points(df: pd.DataFrame):
+    df = df.sort_values(["Name", "Timestamp"])  # ensure proper order
+
+    df['cumulative_points'] = df.groupby('Name')['point'].cumsum()
+    return df
+
 def make_ranking(df: pd.DataFrame):
     df = df.loc[df["Name"] != "Coach", :]
     df_ranking = df.groupby("Name", as_index=True)["point"].sum()
@@ -73,5 +79,15 @@ def plot_most_selected_players(df: pd.DataFrame, save:bool=True):
 
 
 
+def plot_trend_points(df):
+    fig, ax = plt.subplots()
+
+    for name in df.Name.unique():
+        ax.plot(df[df.Name == name].date, df[df.Name == name].cumulative_points, label=name)
+
+    ax.set_xlabel("Giornata")
+    ax.set_ylabel("Punti")
+    ax.legend(loc='best')
+    plt.savefig("docs/images/trend_points.png", dpi=300)
 
 
