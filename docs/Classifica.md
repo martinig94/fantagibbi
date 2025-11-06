@@ -4,8 +4,8 @@
 |:-------|--------:|
 | Adri   |      90 |
 | Chiara |     150 |
-| Giuli  |     240 |
 | Marti  |     180 |
+| Giuli  |     240 |
 <!-- END_TABLE -->
 
 [Scarica classifica](data/ranking.csv)
