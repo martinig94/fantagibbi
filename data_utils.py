@@ -5,6 +5,10 @@ def rename_columns(df):
     df.rename(columns={'Chi sei': 'Name', "Seleziona le tue 10 convocate": "Selected_players", "Giornata":"Date"}, inplace=True)
     return df
 
+def clean_data(df: pd.DataFrame):
+    df.sort_values(by=["Timestamp"], inplace=True)
+    df.drop_duplicates(subset=["Name", "Date"], keep="last", inplace=True)
+    return df
 
 def to_player_list(x):
     if isinstance(x, str):
@@ -42,7 +46,7 @@ def make_ranking(df: pd.DataFrame):
     df_ranking = df.groupby("Name", as_index=True)["point"].sum()
     return df_ranking
 
-def plot_most_selected(df: pd.DataFrame, save:bool=True):
+def plot_most_selected_coach(df: pd.DataFrame, save:bool=True):
     df = df.loc[df["Name"] == "Coach", :]
     counts = df["Selected_players"].explode().value_counts()
     fix, ax = plt.subplots(figsize=(8, 4))
@@ -52,6 +56,22 @@ def plot_most_selected(df: pd.DataFrame, save:bool=True):
     plt.ylabel("")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("docs/images/most_selected.png", dpi=300)
+    plt.savefig("docs/images/most_selected_coach.png", dpi=300)
+
+
+def plot_most_selected_players(df: pd.DataFrame, save:bool=True):
+    df = df.loc[df["Name"] != "Coach", :]
+    counts = df["Selected_players"].explode().value_counts()
+    fix, ax = plt.subplots(figsize=(8, 4))
+    ax.bar(counts.index, counts.values)
+    plt.title("Numero di selezioni da parte delle partecipanti")
+    plt.xlabel("Giocatrici")
+    plt.ylabel("")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig("docs/images/most_selected_players.png", dpi=300)
+
+
+
 
 

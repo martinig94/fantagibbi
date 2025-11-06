@@ -2,6 +2,8 @@
 <!-- START_TABLE -->
 | Name   |   point |
 |:-------|--------:|
+| Adri   |       0 |
+| Chiara |       0 |
 | Giuli  |      90 |
 | Marti  |      90 |
 <!-- END_TABLE -->
