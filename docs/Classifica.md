@@ -2,10 +2,10 @@
 <!-- START_TABLE -->
 | Name   |   point |
 |:-------|--------:|
-| Giuli  |     330 |
-| Marti  |     260 |
-| Chiara |     240 |
-| Adri   |     170 |
+| Giuli  |     420 |
+| Marti  |     350 |
+| Chiara |     320 |
+| Adri   |     250 |
 <!-- END_TABLE -->
 
 [Scarica classifica](data/ranking.csv)
