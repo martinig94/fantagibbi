@@ -1,14 +1,14 @@
 from datetime import datetime
 import re
 
-def update_table_in_file(file_path, markdown_table):
+def update_table_in_file(file_path, markdown_table, suffix:str):
     # Read existing Markdown page
     with open(f"{file_path}", "r", encoding="utf-8") as f:
         content = f.read()
 
     # Replace section between markers
     new_content = re.sub(
-        r"(<!-- START_TABLE -->)(.*?)(<!-- END_TABLE -->)",
+        rf"(<!-- START_TABLE {suffix} -->)(.*?)(<!-- END_TABLE {suffix} -->)",
         f"\\1\n{markdown_table}\n\\3",
         content,
         flags=re.DOTALL

@@ -29,6 +29,18 @@ def compute_right_selected_players(df: pd.DataFrame):
         .to_dict()
     )
 
+    # 2. list same_as_coach
+    df["Selezionata e convocata"] = df.apply(
+        lambda row: (set(row["Selected_players"]) & coach_map.get(row["Date"], set())),
+        axis=1
+    )
+
+    # 2. list same_as_coach
+    df["Selezionata e non convocata"] = df.apply(
+        lambda row: (set(row["Selected_players"]) - coach_map.get(row["Date"], set())),
+        axis=1
+    )
+
     # 2. Compute same_as_coach
     df["same_as_coach"] = df.apply(
         lambda row: len(set(row["Selected_players"]) & coach_map.get(row["Date"], set())),
@@ -40,6 +52,11 @@ def compute_right_selected_players(df: pd.DataFrame):
 def assign_points(df: pd.DataFrame):
     df["point"]=df.apply(lambda row: 150 if row["same_as_coach"]==10 else 10*row["same_as_coach"], axis=1)
     return df
+
+def add_points_first_round(df: pd.DataFrame):
+    min_date = df.loc[df["Name"]=="Giuli","Timestamp"].min()
+    new_entries  = pd.DataFrame({"Name":["Chiara", "Adri"], "Timestamp":[min_date, min_date], "point":[90, 90], "Date":["1Andata vs Albano", "1Andata vs Albano"]})
+    return pd.concat([df, new_entries])
 
 def get_cumulative_points(df: pd.DataFrame):
     df = df.sort_values(["Name", "Timestamp"])  # ensure proper order
