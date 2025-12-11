@@ -106,6 +106,7 @@ def plot_trend_points(df):
         ax.plot(df[df.Name == name].Date, df[df.Name == name].cumulative_points, label=name, linestyle="dashed", marker='o')
         ax.scatter(df[df.Name == name].Date, df[df.Name == name].cumulative_points)
     ax.set_xlim(left=0)
+    plt.xticks(rotation=45)
     ax.set_xlabel("Giornata")
     ax.set_ylabel("Punti")
     ax.legend(loc='best')
