@@ -2,8 +2,8 @@
 <!-- START_TABLE RANKING -->
 | Name   |   point |
 |:-------|--------:|
-| Chiara |     860 |
 | Giuli  |     740 |
+| Chiara |     710 |
 | Adri   |     610 |
 | Marti  |     610 |
 <!-- END_TABLE RANKING -->
@@ -15,10 +15,10 @@
 
 # Ultima Giornata
 <!-- START_TABLE CORRECT -->
-|    | Name   | Selezionata e convocata                                                                                            | Selezionata e non convocata   |
-|---:|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------|
-|  5 | Adri   | {'Sara', 'Chiara', 'Marti Door', 'Luna', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Virginia'}                 | {'Silvia'}                    |
-| 11 | Chiara | {'Sara', 'Chiara', 'Marti Door', 'Sofia Grande', 'Luna', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Virginia'} | {'Lucre'}                     |
-| 24 | Giuli  | {'Sara', 'Chiara', 'Marti Door', 'Sofia Grande', 'Luna', 'Elisa', 'Giulia', 'Virginia'}                            | {'Silvia', 'Sophia Piccola'}  |
-| 32 | Marti  | {'Sara', 'Chiara', 'Marti Door', 'Sofia Grande', 'Luna', 'Elisa', 'Giulia', 'Gioia', 'Virginia'}                   | {'Andre'}                     |
+| Name   | Selezionata e convocata                                                                            | Selezionata e non convocata   |
+|:-------|:---------------------------------------------------------------------------------------------------|:------------------------------|
+| Adri   | {'Elisa', 'Sara', 'Susanna Fodaro', 'Marti Door', 'Giulia', 'Chiara', 'Gioia', 'Virginia', 'Luna'} | {'Silvia'}                    |
+| Chiara | set()                                                                                              | {'Formazione non inserita'}   |
+| Giuli  | {'Elisa', 'Sara', 'Marti Door', 'Giulia', 'Chiara', 'Sofia Grande', 'Virginia', 'Luna'}            | {'Sophia Piccola', 'Silvia'}  |
+| Marti  | {'Elisa', 'Sara', 'Marti Door', 'Giulia', 'Chiara', 'Sofia Grande', 'Gioia', 'Virginia', 'Luna'}   | {'Andre'}                     |
 <!-- END_TABLE CORRECT -->

@@ -110,6 +110,7 @@ def plot_trend_points(df):
     ax.set_xlabel("Giornata")
     ax.set_ylabel("Punti")
     ax.legend(loc='best')
+    plt.tight_layout()
     plt.savefig("docs/images/trend_points.png", dpi=300)
 
 

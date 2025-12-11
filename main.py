@@ -15,6 +15,7 @@ markdown_table = df_ranking.to_markdown()
 update_table_in_file("docs/Classifica.md", markdown_table=markdown_table, suffix="RANKING")
 last_pick = df.groupby("Name", as_index=False)["Timestamp"].max()
 markdown_table_selected = df.loc[~(df["Name"]=="Coach")&(df["Timestamp"].isin(last_pick["Timestamp"])), ["Name", "Selezionata e convocata", "Selezionata e non convocata"]]
+markdown_table_selected.set_index("Name", inplace=True)
 markdown_table_selected = markdown_table_selected.to_markdown()
 update_table_in_file("docs/Classifica.md", markdown_table=markdown_table_selected, suffix="CORRECT")
 plot_most_selected_coach(df=df, save=True)
