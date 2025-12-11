@@ -15,10 +15,10 @@
 
 # Ultima Giornata
 <!-- START_TABLE CORRECT -->
-|    | Name   | Selezionata e convocata                                                                                        | Selezionata e non convocata   |
-|---:|:-------|:---------------------------------------------------------------------------------------------------------------|:------------------------------|
-|  5 | Adri   | {'Marti Door', 'Virginia', 'Luna', 'Giulia', 'Susanna Fodaro', 'Elisa', 'Gioia', 'Sara', 'Chiara'}             | {'Silvia'}                    |
-| 10 | Chiara | {'Silvia', 'Virginia', 'Luna', 'Giulia', 'Elisa', 'Gioia', 'Marti Gualti', 'Sara', 'Chiara', 'Sophia Piccola'} | set()                         |
-| 23 | Giuli  | {'Marti Door', 'Virginia', 'Sofia Grande', 'Luna', 'Giulia', 'Elisa', 'Sara', 'Chiara'}                        | {'Sophia Piccola', 'Silvia'}  |
-| 31 | Marti  | {'Marti Door', 'Virginia', 'Sofia Grande', 'Luna', 'Giulia', 'Elisa', 'Gioia', 'Sara', 'Chiara'}               | {'Andre'}                     |
+|    | Name   | Selezionata e convocata                                                                            | Selezionata e non convocata   |
+|---:|:-------|:---------------------------------------------------------------------------------------------------|:------------------------------|
+|  5 | Adri   | {'Elisa', 'Marti Door', 'Luna', 'Chiara', 'Virginia', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Sara'} | {'Silvia'}                    |
+| 33 | Chiara | set()                                                                                              | {'Formazione non inserita'}   |
+| 23 | Giuli  | {'Elisa', 'Marti Door', 'Luna', 'Chiara', 'Virginia', 'Giulia', 'Sofia Grande', 'Sara'}            | {'Sophia Piccola', 'Silvia'}  |
+| 31 | Marti  | {'Elisa', 'Marti Door', 'Luna', 'Chiara', 'Virginia', 'Giulia', 'Gioia', 'Sofia Grande', 'Sara'}   | {'Andre'}                     |
 <!-- END_TABLE CORRECT -->
