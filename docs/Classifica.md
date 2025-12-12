@@ -17,8 +17,8 @@
 <!-- START_TABLE CORRECT -->
 | Name   | Selezionata e convocata                                                                            | Selezionata e non convocata   |
 |:-------|:---------------------------------------------------------------------------------------------------|:------------------------------|
-| Adri   | {'Virginia', 'Susanna Fodaro', 'Luna', 'Marti Door', 'Sara', 'Gioia', 'Giulia', 'Chiara', 'Elisa'} | {'Silvia'}                    |
+| Adri   | {'Marti Door', 'Elisa', 'Gioia', 'Luna', 'Sara', 'Giulia', 'Susanna Fodaro', 'Chiara', 'Virginia'} | {'Silvia'}                    |
 | Chiara | set()                                                                                              | {'Formazione non inserita'}   |
-| Giuli  | {'Virginia', 'Luna', 'Marti Door', 'Sara', 'Sofia Grande', 'Giulia', 'Chiara', 'Elisa'}            | {'Silvia', 'Sophia Piccola'}  |
-| Marti  | {'Virginia', 'Luna', 'Marti Door', 'Sara', 'Gioia', 'Sofia Grande', 'Giulia', 'Chiara', 'Elisa'}   | {'Andre'}                     |
+| Giuli  | {'Marti Door', 'Elisa', 'Luna', 'Sofia Grande', 'Giulia', 'Sara', 'Chiara', 'Virginia'}            | {'Sophia Piccola', 'Silvia'}  |
+| Marti  | {'Marti Door', 'Elisa', 'Gioia', 'Luna', 'Sofia Grande', 'Giulia', 'Sara', 'Chiara', 'Virginia'}   | {'Andre'}                     |
 <!-- END_TABLE CORRECT -->
