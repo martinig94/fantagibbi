@@ -2,11 +2,11 @@
 <!-- START_TABLE RANKING -->
 | Name         |   point |
 |:-------------|--------:|
-| Giuli        |     740 |
-| Chiara       |     710 |
-| Adri         |     610 |
-| Marti        |     610 |
-| Sofia Grande |       0 |
+| Giuli        |     890 |
+| Chiara       |     860 |
+| Adri         |     760 |
+| Marti        |     760 |
+| Sofia Grande |     760 |
 <!-- END_TABLE RANKING -->
 
 [Scarica classifica](data/ranking.csv)
@@ -16,11 +16,11 @@
 
 # Ultima Giornata
 <!-- START_TABLE CORRECT -->
-| Name         | Selezionata e convocata                                                                            | Selezionata e non convocata                                                                                  |
-|:-------------|:---------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
-| Adri         | {'Luna', 'Gioia', 'Elisa', 'Marti Door', 'Sara', 'Virginia', 'Chiara', 'Susanna Fodaro', 'Giulia'} | {'Silvia'}                                                                                                   |
-| Chiara       | set()                                                                                              | {'Luna', 'Gioia', 'Elisa', 'Marti Door', 'Sara', 'Virginia', 'Silvia', 'Chiara', 'Susanna Fodaro', 'Giulia'} |
-| Giuli        | set()                                                                                              | {'Luna', 'Gioia', 'Elisa', 'Marti Door', 'Sara', 'Virginia', 'Silvia', 'Chiara', 'Susanna Fodaro', 'Giulia'} |
-| Marti        | set()                                                                                              | {'Luna', 'Gioia', 'Elisa', 'Marti Door', 'Sara', 'Virginia', 'Silvia', 'Chiara', 'Susanna Fodaro', 'Giulia'} |
-| Sofia Grande | set()                                                                                              | {'Luna', 'Gioia', 'Elisa', 'Marti Door', 'Sara', 'Virginia', 'Silvia', 'Chiara', 'Susanna Fodaro', 'Giulia'} |
+| Name         | Selezionata e convocata                                                                                      | Selezionata e non convocata   |
+|:-------------|:-------------------------------------------------------------------------------------------------------------|:------------------------------|
+| Adri         | {'Sara', 'Silvia', 'Virginia', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Marti Door', 'Chiara', 'Luna'} | set()                         |
+| Chiara       | {'Sara', 'Silvia', 'Virginia', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Marti Door', 'Chiara', 'Luna'} | set()                         |
+| Giuli        | {'Sara', 'Silvia', 'Virginia', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Marti Door', 'Chiara', 'Luna'} | set()                         |
+| Marti        | {'Sara', 'Silvia', 'Virginia', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Marti Door', 'Chiara', 'Luna'} | set()                         |
+| Sofia Grande | {'Sara', 'Silvia', 'Virginia', 'Elisa', 'Susanna Fodaro', 'Giulia', 'Gioia', 'Marti Door', 'Chiara', 'Luna'} | set()                         |
 <!-- END_TABLE CORRECT -->
