@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata                                                                                      | Selezionata e non convocata   |
 |:-------------|:-------------------------------------------------------------------------------------------------------------|:------------------------------|
-| Adri         | {'Gioia', 'Susanna Fodaro', 'Silvia', 'Elisa', 'Virginia', 'Marti Door', 'Giulia', 'Chiara', 'Sara', 'Luna'} | set()                         |
-| Chiara       | {'Gioia', 'Susanna Fodaro', 'Silvia', 'Elisa', 'Virginia', 'Marti Door', 'Giulia', 'Chiara', 'Sara', 'Luna'} | set()                         |
-| Giuli        | {'Gioia', 'Susanna Fodaro', 'Silvia', 'Elisa', 'Virginia', 'Marti Door', 'Giulia', 'Chiara', 'Sara', 'Luna'} | set()                         |
-| Marti        | {'Gioia', 'Susanna Fodaro', 'Silvia', 'Elisa', 'Virginia', 'Marti Door', 'Giulia', 'Chiara', 'Sara', 'Luna'} | set()                         |
-| Sofia Grande | {'Gioia', 'Susanna Fodaro', 'Silvia', 'Elisa', 'Virginia', 'Marti Door', 'Giulia', 'Chiara', 'Sara', 'Luna'} | set()                         |
+| Adri         | {'Marti Door', 'Susanna Fodaro', 'Virginia', 'Luna', 'Gioia', 'Sara', 'Chiara', 'Silvia', 'Giulia', 'Elisa'} | set()                         |
+| Chiara       | {'Marti Door', 'Susanna Fodaro', 'Virginia', 'Luna', 'Gioia', 'Sara', 'Chiara', 'Silvia', 'Giulia', 'Elisa'} | set()                         |
+| Giuli        | {'Marti Door', 'Susanna Fodaro', 'Virginia', 'Luna', 'Gioia', 'Sara', 'Chiara', 'Silvia', 'Giulia', 'Elisa'} | set()                         |
+| Marti        | {'Marti Door', 'Susanna Fodaro', 'Virginia', 'Luna', 'Gioia', 'Sara', 'Chiara', 'Silvia', 'Giulia', 'Elisa'} | set()                         |
+| Sofia Grande | {'Marti Door', 'Susanna Fodaro', 'Virginia', 'Luna', 'Gioia', 'Sara', 'Chiara', 'Silvia', 'Giulia', 'Elisa'} | set()                         |
 <!-- END_TABLE CORRECT -->
