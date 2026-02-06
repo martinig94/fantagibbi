@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 def rename_columns(df):
     df.rename(columns={'Chi sei': 'Name', "Seleziona le tue 10 convocate": "Selected_players", "Giornata":"Date"}, inplace=True)
+    df["Date_sort"]=pd.to_datetime(df["Timestamp"])
     return df
 
 def clean_data(df: pd.DataFrame):
@@ -54,12 +55,12 @@ def assign_points(df: pd.DataFrame):
     return df
 
 def add_points_first_round(df: pd.DataFrame):
-    min_date = df.loc[df["Name"]=="Giuli","Timestamp"].min()
-    new_entries  = pd.DataFrame({"Name":["Chiara", "Adri"], "Timestamp":[min_date, min_date], "point":[90, 90], "Date":["1Andata vs Albano", "1Andata vs Albano"]})
+    min_date = df.loc[df["Name"]=="Giuli","Date_sort"].min()
+    new_entries  = pd.DataFrame({"Name":["Chiara", "Adri"], "Date_sort":[min_date, min_date], "point":[90, 90], "Date":["1Andata vs Albano", "1Andata vs Albano"]})
     return pd.concat([df, new_entries])
 
 def get_cumulative_points(df: pd.DataFrame):
-    df = df.sort_values(["Name", "Timestamp"])  # ensure proper order
+    df = df.sort_values(["Name", "Date_sort"])  # ensure proper order
 
     df['cumulative_points'] = df.groupby('Name')['point'].cumsum()
     return df
@@ -99,7 +100,7 @@ def plot_most_selected_players(df: pd.DataFrame, save:bool=True):
 
 def plot_trend_points(df):
     df = df.loc[df["Name"] != "Coach", :]
-    df = df.sort_values(["Timestamp", "Name"])
+    df = df.sort_values(["Date_sort"])
     fig, ax = plt.subplots()
 
     for name in df.Name.unique():
