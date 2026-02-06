@@ -1,12 +1,11 @@
 # Vedi qua la classifica aggiornata
 <!-- START_TABLE RANKING -->
-| Name         |   point |
-|:-------------|--------:|
-| Giuli        |    1380 |
-| Chiara       |    1290 |
-| Marti        |    1100 |
-| Sofia Grande |    1100 |
-| Adri         |    1090 |
+| Name   |   point |
+|:-------|--------:|
+| Giuli  |     740 |
+| Chiara |     710 |
+| Adri   |     610 |
+| Marti  |     610 |
 <!-- END_TABLE RANKING -->
 
 [Scarica classifica](data/ranking.csv)
