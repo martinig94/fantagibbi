@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata                                                                                       | Selezionata e non convocata                                                                                    |
 |:-------------|:--------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| Adri         | {'Giulia', 'Sofia Grande', 'Susanna Fodaro', 'Gioia', 'Chiara', 'Luna', 'Virginia', 'Sara'}                   | {'Marti Door', 'Silvia'}                                                                                       |
-| Chiara       | set()                                                                                                         | {'Giulia', 'Silvia', 'Susanna Fodaro', 'Gioia', 'Chiara', 'Luna', 'Elisa', 'Virginia', 'Sara', 'Marti Gualti'} |
-| Giuli        | set()                                                                                                         | {'Giulia', 'Silvia', 'Susanna Fodaro', 'Gioia', 'Chiara', 'Luna', 'Elisa', 'Virginia', 'Marti Door', 'Sara'}   |
-| Marti        | {'Giulia', 'Sofia Grande', 'Susanna Fodaro', 'Gioia', 'Chiara', 'Luna', 'Elisa', 'Virginia', 'Sara'}          | {'Marti Door'}                                                                                                 |
-| Sofia Grande | {'Giulia', 'Sofia Grande', 'Susanna Fodaro', 'Gioia', 'Chiara', 'Luna', 'Sophia Piccola', 'Virginia', 'Sara'} | {'Marti Gualti'}                                                                                               |
+| Adri         | {'Gioia', 'Luna', 'Chiara', 'Sara', 'Giulia', 'Virginia', 'Susanna Fodaro', 'Sofia Grande'}                   | {'Marti Door', 'Silvia'}                                                                                       |
+| Chiara       | set()                                                                                                         | {'Gioia', 'Luna', 'Marti Gualti', 'Silvia', 'Chiara', 'Elisa', 'Giulia', 'Sara', 'Virginia', 'Susanna Fodaro'} |
+| Giuli        | set()                                                                                                         | {'Gioia', 'Luna', 'Silvia', 'Chiara', 'Elisa', 'Marti Door', 'Giulia', 'Sara', 'Virginia', 'Susanna Fodaro'}   |
+| Marti        | {'Gioia', 'Luna', 'Chiara', 'Elisa', 'Giulia', 'Sara', 'Virginia', 'Susanna Fodaro', 'Sofia Grande'}          | {'Marti Door'}                                                                                                 |
+| Sofia Grande | {'Gioia', 'Luna', 'Chiara', 'Giulia', 'Sophia Piccola', 'Sara', 'Virginia', 'Susanna Fodaro', 'Sofia Grande'} | {'Marti Gualti'}                                                                                               |
 <!-- END_TABLE CORRECT -->
