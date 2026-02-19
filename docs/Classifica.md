@@ -2,11 +2,11 @@
 <!-- START_TABLE RANKING -->
 | Name         |   point |
 |:-------------|--------:|
-| Giuli        |    1380 |
-| Chiara       |    1290 |
-| Marti        |    1100 |
-| Sofia Grande |    1100 |
-| Adri         |    1090 |
+| Giuli        |    1560 |
+| Chiara       |    1380 |
+| Marti        |    1190 |
+| Sofia Grande |    1190 |
+| Adri         |    1170 |
 <!-- END_TABLE RANKING -->
 
 [Scarica classifica](data/ranking.csv)
@@ -16,11 +16,11 @@
 
 # Ultima Giornata
 <!-- START_TABLE CORRECT -->
-| Name         | Selezionata e convocata   | Selezionata e non convocata                                                                                            |
-|:-------------|:--------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Adri         | set()                     | {'Elisa', 'Luna', 'Sara', 'Virginia', 'Andre', 'Marti Gualti', 'Chiara', 'Gioia', 'Sofia Grande', 'Giulia'}            |
-| Chiara       | set()                     | {'Elisa', 'Luna', 'Sara', 'Virginia', 'Marti Gualti', 'Chiara', 'Silvia', 'Gioia', 'Susanna Fodaro', 'Giulia'}         |
-| Giuli        | set()                     | {'Elisa', 'Luna', 'Sara', 'Virginia', 'Marti Gualti', 'Chiara', 'Lucre', 'Silvia', 'Gioia', 'Giulia'}                  |
-| Marti        | set()                     | {'Elisa', 'Luna', 'Susanna Di Stefano', 'Sara', 'Virginia', 'Marti Door', 'Marti Gualti', 'Chiara', 'Gioia', 'Giulia'} |
-| Sofia Grande | set()                     | {'Elisa', 'Luna', 'Sara', 'Virginia', 'Marti Gualti', 'Chiara', 'Lucre', 'Silvia', 'Gioia', 'Giulia'}                  |
+| Name         | Selezionata e convocata                                                                              | Selezionata e non convocata   |
+|:-------------|:-----------------------------------------------------------------------------------------------------|:------------------------------|
+| Adri         | {'Luna', 'Elisa', 'Giulia', 'Virginia', 'Sara', 'Chiara', 'Marti Gualti', 'Gioia'}                   | {'Andre', 'Sofia Grande'}     |
+| Chiara       | {'Luna', 'Elisa', 'Giulia', 'Virginia', 'Sara', 'Susanna Fodaro', 'Chiara', 'Marti Gualti', 'Gioia'} | {'Silvia'}                    |
+| Giuli        | {'Lucre', 'Luna', 'Elisa', 'Giulia', 'Virginia', 'Sara', 'Chiara', 'Marti Gualti', 'Gioia'}          | {'Silvia'}                    |
+| Marti        | {'Luna', 'Elisa', 'Giulia', 'Virginia', 'Sara', 'Chiara', 'Marti Door', 'Marti Gualti', 'Gioia'}     | {'Susanna Di Stefano'}        |
+| Sofia Grande | {'Lucre', 'Luna', 'Elisa', 'Giulia', 'Virginia', 'Sara', 'Chiara', 'Marti Gualti', 'Gioia'}          | {'Silvia'}                    |
 <!-- END_TABLE CORRECT -->
