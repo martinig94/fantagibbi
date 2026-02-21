@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata                                                                          | Selezionata e non convocata              |
 |:-------------|:-------------------------------------------------------------------------------------------------|:-----------------------------------------|
-| Adri         | {'Luna', 'Gioia', 'Elisa', 'Sara', 'Giulia', 'Virginia', 'Marti Gualti', 'Chiara'}               | {'Sofia Grande', 'Andre'}                |
-| Chiara       | {'Luna', 'Gioia', 'Elisa', 'Sara', 'Giulia', 'Virginia', 'Marti Door', 'Chiara'}                 | {'Susanna Di Stefano', 'Susanna Fodaro'} |
-| Giuli        | {'Luna', 'Gioia', 'Elisa', 'Sara', 'Giulia', 'Virginia', 'Marti Gualti', 'Chiara', 'Lucre'}      | {'Silvia'}                               |
-| Marti        | {'Luna', 'Gioia', 'Elisa', 'Sara', 'Giulia', 'Virginia', 'Marti Door', 'Marti Gualti', 'Chiara'} | {'Susanna Di Stefano'}                   |
-| Sofia Grande | {'Luna', 'Gioia', 'Elisa', 'Sara', 'Giulia', 'Virginia', 'Marti Gualti', 'Chiara', 'Lucre'}      | {'Silvia'}                               |
+| Adri         | {'Giulia', 'Luna', 'Chiara', 'Gioia', 'Sara', 'Elisa', 'Virginia', 'Marti Gualti'}               | {'Sofia Grande', 'Andre'}                |
+| Chiara       | {'Giulia', 'Luna', 'Chiara', 'Marti Door', 'Gioia', 'Sara', 'Elisa', 'Virginia'}                 | {'Susanna Fodaro', 'Susanna Di Stefano'} |
+| Giuli        | {'Giulia', 'Luna', 'Chiara', 'Gioia', 'Sara', 'Elisa', 'Lucre', 'Virginia', 'Marti Gualti'}      | {'Silvia'}                               |
+| Marti        | {'Giulia', 'Luna', 'Chiara', 'Marti Door', 'Gioia', 'Sara', 'Elisa', 'Virginia', 'Marti Gualti'} | {'Susanna Di Stefano'}                   |
+| Sofia Grande | {'Giulia', 'Luna', 'Chiara', 'Gioia', 'Sara', 'Elisa', 'Lucre', 'Virginia', 'Marti Gualti'}      | {'Silvia'}                               |
 <!-- END_TABLE CORRECT -->
