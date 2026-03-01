@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata   | Selezionata e non convocata                                                                                                      |
 |:-------------|:--------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| Adri         | set()                     | {'Silvia', 'Giulia', 'Andre', 'Gioia', 'Susanna Fodaro', 'Sophia Piccola', 'Susanna Di Stefano', 'Elisa', 'Luna', 'Chiara'}      |
-| Chiara       | set()                     | {'Silvia', 'Giulia', 'Andre', 'Gioia', 'Susanna Fodaro', 'Sophia Piccola', 'Susanna Di Stefano', 'Luna', 'Marti Door', 'Chiara'} |
-| Giuli        | set()                     | {'Silvia', 'Giulia', 'Andre', 'Gioia', 'Susanna Fodaro', 'Sophia Piccola', 'Susanna Di Stefano', 'Elisa', 'Luna', 'Chiara'}      |
-| Marti        | set()                     | {'Silvia', 'Giulia', 'Andre', 'Gioia', 'Susanna Fodaro', 'Sophia Piccola', 'Susanna Di Stefano', 'Luna', 'Marti Door', 'Chiara'} |
-| Sofia Grande | set()                     | {'Silvia', 'Giulia', 'Andre', 'Gioia', 'Susanna Fodaro', 'Sophia Piccola', 'Susanna Di Stefano', 'Luna', 'Marti Door', 'Chiara'} |
+| Adri         | set()                     | {'Chiara', 'Elisa', 'Susanna Di Stefano', 'Giulia', 'Sophia Piccola', 'Luna', 'Silvia', 'Andre', 'Gioia', 'Susanna Fodaro'}      |
+| Chiara       | set()                     | {'Marti Door', 'Chiara', 'Susanna Di Stefano', 'Giulia', 'Sophia Piccola', 'Luna', 'Silvia', 'Andre', 'Gioia', 'Susanna Fodaro'} |
+| Giuli        | set()                     | {'Chiara', 'Elisa', 'Susanna Di Stefano', 'Giulia', 'Sophia Piccola', 'Luna', 'Silvia', 'Andre', 'Gioia', 'Susanna Fodaro'}      |
+| Marti        | set()                     | {'Marti Door', 'Chiara', 'Susanna Di Stefano', 'Giulia', 'Sophia Piccola', 'Luna', 'Silvia', 'Andre', 'Gioia', 'Susanna Fodaro'} |
+| Sofia Grande | set()                     | {'Marti Door', 'Chiara', 'Susanna Di Stefano', 'Giulia', 'Sophia Piccola', 'Luna', 'Silvia', 'Andre', 'Gioia', 'Susanna Fodaro'} |
 <!-- END_TABLE CORRECT -->
