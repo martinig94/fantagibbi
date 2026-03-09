@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata   | Selezionata e non convocata                                                                                                  |
 |:-------------|:--------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| Adri         | set()                     | {'Elisa', 'Virginia', 'Silvia', 'Giulia', 'Lucre', 'Luna', 'Chiara', 'Marti Gualti', 'Gioia', 'Susanna Fodaro'}              |
-| Chiara       | set()                     | {'Elisa', 'Virginia', 'Silvia', 'Marti Door', 'Giulia', 'Luna', 'Marti Gualti', 'Gioia', 'Sophia Piccola', 'Susanna Fodaro'} |
-| Giuli        | set()                     | {'Elisa', 'Virginia', 'Silvia', 'Giulia', 'Lucre', 'Luna', 'Marti Gualti', 'Gioia', 'Sophia Piccola', 'Susanna Fodaro'}      |
-| Marti        | set()                     | {'Elisa', 'Virginia', 'Silvia', 'Giulia', 'Luna', 'Marti Gualti', 'Gioia', 'Andre', 'Susanna Fodaro', 'Sara'}                |
-| Sofia Grande | set()                     | {'Elisa', 'Virginia', 'Silvia', 'Giulia', 'Luna', 'Marti Gualti', 'Gioia', 'Sophia Piccola', 'Susanna Fodaro', 'Andre'}      |
+| Adri         | set()                     | {'Elisa', 'Gioia', 'Silvia', 'Chiara', 'Lucre', 'Luna', 'Marti Gualti', 'Virginia', 'Susanna Fodaro', 'Giulia'}              |
+| Chiara       | set()                     | {'Elisa', 'Marti Door', 'Gioia', 'Silvia', 'Sophia Piccola', 'Luna', 'Marti Gualti', 'Virginia', 'Susanna Fodaro', 'Giulia'} |
+| Giuli        | set()                     | {'Elisa', 'Gioia', 'Silvia', 'Sophia Piccola', 'Lucre', 'Luna', 'Marti Gualti', 'Virginia', 'Susanna Fodaro', 'Giulia'}      |
+| Marti        | set()                     | {'Elisa', 'Gioia', 'Silvia', 'Andre', 'Sara', 'Luna', 'Marti Gualti', 'Virginia', 'Susanna Fodaro', 'Giulia'}                |
+| Sofia Grande | set()                     | {'Elisa', 'Gioia', 'Silvia', 'Andre', 'Sophia Piccola', 'Luna', 'Marti Gualti', 'Virginia', 'Susanna Fodaro', 'Giulia'}      |
 <!-- END_TABLE CORRECT -->
