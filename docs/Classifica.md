@@ -18,9 +18,9 @@
 <!-- START_TABLE CORRECT -->
 | Name         | Selezionata e convocata   | Selezionata e non convocata                                                                                                     |
 |:-------------|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| Adri         | set()                     | {'Giulia', 'Luna', 'Susanna Di Stefano', 'Lucre', 'Silvia', 'Marti Door', 'Virginia', 'Gioia', 'Sophia Piccola', 'Sara'}        |
-| Chiara       | set()                     | {'Giulia', 'Luna', 'Susanna Di Stefano', 'Lucre', 'Silvia', 'Marti Door', 'Virginia', 'Gioia', 'Sophia Piccola', 'Sara'}        |
-| Giuli        | set()                     | {'Giulia', 'Luna', 'Lucre', 'Silvia', 'Elisa', 'Susanna Fodaro', 'Virginia', 'Gioia', 'Sophia Piccola', 'Marti Gualti'}         |
-| Marti        | set()                     | {'Giulia', 'Luna', 'Susanna Di Stefano', 'Silvia', 'Marti Door', 'Virginia', 'Gioia', 'Sophia Piccola', 'Marti Gualti', 'Sara'} |
-| Sofia Grande | set()                     | {'Giulia', 'Luna', 'Susanna Di Stefano', 'Lucre', 'Silvia', 'Marti Door', 'Virginia', 'Gioia', 'Sophia Piccola', 'Sara'}        |
+| Adri         | set()                     | {'Lucre', 'Susanna Di Stefano', 'Marti Door', 'Luna', 'Giulia', 'Sophia Piccola', 'Silvia', 'Sara', 'Gioia', 'Virginia'}        |
+| Chiara       | set()                     | {'Lucre', 'Susanna Di Stefano', 'Marti Door', 'Luna', 'Giulia', 'Sophia Piccola', 'Silvia', 'Sara', 'Gioia', 'Virginia'}        |
+| Giuli        | set()                     | {'Lucre', 'Luna', 'Marti Gualti', 'Giulia', 'Sophia Piccola', 'Silvia', 'Susanna Fodaro', 'Gioia', 'Virginia', 'Elisa'}         |
+| Marti        | set()                     | {'Susanna Di Stefano', 'Marti Door', 'Luna', 'Marti Gualti', 'Giulia', 'Sophia Piccola', 'Silvia', 'Sara', 'Gioia', 'Virginia'} |
+| Sofia Grande | set()                     | {'Lucre', 'Susanna Di Stefano', 'Marti Door', 'Luna', 'Giulia', 'Sophia Piccola', 'Silvia', 'Sara', 'Gioia', 'Virginia'}        |
 <!-- END_TABLE CORRECT -->
